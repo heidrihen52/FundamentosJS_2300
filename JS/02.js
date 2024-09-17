@@ -50,3 +50,61 @@ console.log(`Tu nuevo saldo es de: ${saldo_cuenta}`);
 // El cliente realiza un abono de $1500
 monto_transaccion=1500;
 console.log(`Tu abono de: ${monto_transaccion} ha sido recibido, tu nuevo saldo es de: ${saldo_cuenta+monto_transaccion}`);
+
+ //String o cadenas de texto  este tipo de dato se utiliza para declara variables del tipo de texto o cadena de texto
+ const alumno = "Adrian Perez Jimenez"
+ let producto;
+
+ console.warn("--- Tipo de datos - STRING (Cadena de Caracteres)")
+ console.log(`El nombre del alumno es: ${alumno}, que es un tipo de dato ${typeof(alumno)}`)
+ producto = "Monitor 20\""
+ console.log(`El nombre del producto es: ${producto}, que es un tipo de dato ${typeof(producto)}`)
+
+ //Manipulando los strings
+ console.log(`Mas adelnate podremos transformar el contenido de los STRINGS usando funciones especificas como convertir a mayusculas: ${alumno} => ${alumno.toUpperCase()}`)
+ console.log(`O en su defecto a minusculas: ${producto} => ${producto.toLowerCase()}`)
+ 
+ // BigiInt (Enteros de Dimensiones Amplias)
+ console.warn("--- Tipo de dato - BIGINT (Número Amplio)")
+ const numeroGrande = 12123445678654323456555555555555555555555
+ const numeroGrande2 = BigInt(464454465446546465465464654646465)
+ const numeroGrande3 = BigInt(464333454465446546465465464654646465)
+ const numeroGrande4 = 12345678910111213141516171819202122232425262728293031323334353637383940
+ console.log(`El primer experimento de un numero grande es: ${numeroGrande},que si es soportado por NUMBER, y su tipo de dato es; ${typeof(numeroGrande)}`)
+ console.log(`El primer experimento de un numero grande es: ${numeroGrande2},que si es soportado por NUMBER, y su tipo de dato es; ${typeof(numeroGrande2)}`)
+ console.log(`El primer experimento de un numero grande es: ${numeroGrande3},que si es soportado por NUMBER, y su tipo de dato es; ${typeof(numeroGrande3)}`)
+ console.log(`El primer experimento de un numero grande es: ${numeroGrande4},que si es soportado por NUMBER, y su tipo de dato es; ${typeof(numeroGrande4)}`)
+ //BigInt Se usa para declarar numeros muy granades
+ 
+ 
+ 
+ const numero1 = 10
+ const numeroo2 = 20
+ console.log(numero + Number(numeroGrande))
+ 
+ const numerooo = "30"
+ const numerooo2 = 30
+ 
+ console.log(typeof String(numero2))
+ console.log(typeof Number(numero))
+ 
+  Symbol
+ const primerSymbol = Symbol(30)
+ const segundoSymbol = Symbol(30)
+ 
+ console.log(primerSymbol === segundoSymbol)
+ console.log(primerSymbol.valueOf())
+ console.log(segundoSymbol.valueOf())
+ 
+ //Null  se utiliza para declarar variables con un valor nulo
+ const descuento = null
+ console.log(typeof descuento)
+
+
+
+
+
+ /*const numero = "30"
+ const numero2 = 30
+ console.log(typeof numero)
+ console.log(typeof numero2)*/

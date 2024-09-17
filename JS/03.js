@@ -1,36 +1,34 @@
 
- //String o cadenas de texto  este tipo de dato se utiliza para declara variables del tipo de texto o cadena de texto
-const alumno = "juan"
-let producto = 'monitor 20 pulgadas'
+// Objetos
 
-const numero = "30"
-const numero2 = 30
-console.log(typeof numero)
-console.log(typeof numero2)
+//const precio = 300
+//onst disponible = true
 
-//BigInt Se usa para declarar numeros muy granades
+const producto = { //Asignacion de atributos
+    nombre: "Tablet",
+    precio: 300,
+    disponible: true
 
-const numeroGrande = BigInt(12123445678654323456)
-console.log(typeof numeroGrande)
+}
+ console.log(producto)
+ console.log(producto)
 
-const numero1 = 10
-const numeroo2 = 20
-console.log(numero + Number(numeroGrande))
+ console.log(producto.nombre) // Añadir en cadena los datos del producto
+ console.log(producto.precio)
+ console.log(producto.disponible)
 
-const numerooo = "30"
-const numerooo2 = 30
 
-console.log(typeof String(numero2))
-console.log(typeof Number(numero))
+// Desctructuring : Sacar una estructura
+const { nombre ,precio ,disponible } = producto
+console.log(nombre)
+console.log(precio)
+console.log(disponible)
 
- Symbol
-const primerSymbol = Symbol(30)
-const segundoSymbol = Symbol(30)
-
-console.log(primerSymbol === segundoSymbol)
-console.log(primerSymbol.valueOf())
-console.log(segundoSymbol.valueOf())
-
-//Null  se utiliza para declarar variables con un valor nulo
-const descuento = null
-console.log(typeof descuento)
+// Objet Literarl Enhacement colocar datos dentro de un objeto
+const autenticad = true
+const usuario = "juan"
+const nuevoObjeto = {
+    autenticad: autenticado,
+    usuario: usuario
+}
+console.table(nuevoObjeto)

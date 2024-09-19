@@ -8,10 +8,12 @@ Previo a iniciar el desarrollo de software para web usando el framework de Node 
 ## Historial de Prácticas
 
 |No.|Descripción|Estatus|
-|---|----|----|
-|1.|Metodología de Evaluación| Activa|
-|2.|Inicialización del Proyectp de Fundamentos e JS| Activa|
-|3.|||
+|---|----|----|----|
+|1.|Metodología de Evaluación|1|Finalizada|
+|2.|Inicialización del Proyecto de Fundamentos e JS|5| Activa|
+|3.|Declaración de Variables(Undefinied/Boolean/number)|10|Activa|
+|4.|Declaración de Variables(Continuación)||Activa|
+|5.|Introducción a Objetos||Activa|
 
 ## Autor
 Adrian Pérez Jiménez

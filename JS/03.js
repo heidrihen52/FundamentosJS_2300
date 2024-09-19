@@ -32,3 +32,5 @@ const nuevoObjeto = {
     usuario: usuario
 }
 console.table(nuevoObjeto)
+
+//
